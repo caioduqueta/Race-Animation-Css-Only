@@ -1,0 +1,215 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: fixed;
+  background-color: #fae1cb;
+  top: 50%;
+  left: 50%;
+  margin-left: -25rem;
+  margin-top: -15rem;
+  background-color: #20aadd;
+}
+
+div.island {
+  position: relative;
+  background-color: #ffe9b5;
+  width: 50rem;
+  height: 30rem;
+  border-radius: 30rem;
+}
+
+div.grass {
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  background-color: #4da82c;
+  width: 48rem;
+  height: 27rem;
+  border-radius: 13rem;
+ transform: rotateZ(1deg);
+}
+
+div.road1 {
+  position: absolute;
+  top: 1.5rem;
+  left: 1rem;
+  border: 3rem solid #384235;
+  width: 48rem;
+  height: 27rem;
+  border-radius: 13rem;
+  transform: rotateZ(1deg);
+}
+
+div.road2 {
+  position: absolute;
+  top: 3rem;
+  left: 2.2rem;
+  border: 2px dashed #ffed29;
+  width: 45.5rem;
+  height: 24rem;
+  border-radius: 13rem;
+  transform: rotateZ(1deg);
+}
+div.finishLine {
+  position: absolute;
+  top: 1.4rem;
+  left: 20rem;
+  background: white;
+  width: 1rem;
+  height: 3.1rem;
+
+  transform: rotateZ(1deg);
+
+}
+
+div.car1{
+  position: absolute;
+  display: block;
+  width: 1.5rem;
+  height: 0.75rem;
+
+    top: 14rem;
+    left: 47rem;
+    transform: rotate(90deg);
+
+  border-radius: 2px;
+  background-color: #E52521;
+  box-shadow: 2px 2px 0 0 #333;
+  animation: cars 5s linear infinite;
+}
+div.car2{
+  position: absolute;
+  display: block;
+  width: 1.5rem;
+  height: 0.75rem;
+
+    top: 14rem;
+    left: 47rem;
+    transform: rotate(90deg);
+
+  border-radius: 2px;
+  background-color: #AD33DD;
+  box-shadow: 2px 2px 0 0 #333;
+  animation: cars 5s linear infinite;
+  animation-delay: 0.5s;
+}
+
+ @keyframes cars {
+   0% {
+    top: 14rem;
+    left: 47rem;
+    transform: rotate(90deg);
+  }
+  8% {
+   top: 7rem;   
+    left: 44rem;
+    transform: rotate(60deg);
+  }
+    17%{
+     top: 2.5rem;
+    left: 38rem;
+    transform: rotate(2deg);
+  } 
+    34% {
+    top: 1.7rem;  
+    left: 13rem;
+    transform: rotate(2deg);
+  }
+   42% {
+    top: 7rem;  
+    left: 4rem;
+    transform: rotate(-60deg);
+  }
+  50% {
+    top: 14rem;
+    left: 1rem;
+    transform: rotate(-90deg);
+  }
+  58% {
+    top: 22rem;  
+    left: 4rem;
+    transform: rotate(-120deg);
+  }
+    66% {
+    top: 27.2rem;
+    left: 13rem;
+    transform: rotate(-182deg);
+  }
+    83%{
+    top: 27.5rem;
+    left: 38rem;
+    transform: rotate(-182deg);
+  } 
+    92% {
+    top: 22rem;   
+    left: 44rem;
+    transform: rotate(-240deg);
+  }
+    100% {
+    top: 14rem;
+    eft: 47rem;
+    transform: rotate(-300deg);
+  }
+} 
+
+@keyframes red-car {
+   0% {
+    top: 14rem;
+    left: 47rem;
+    transform: rotate(90deg);
+  }
+  8% {
+   top: 7rem;   
+    left: 44rem;
+    transform: rotate(60deg);
+  }
+    17%{
+     top: 2.5rem;
+    left: 38rem;
+    transform: rotate(2deg);
+  } 
+    34% {
+    top: 1.7rem;  
+    left: 13rem;
+    transform: rotate(2deg);
+  }
+   42% {
+    top: 7rem;  
+    left: 4rem;
+    transform: rotate(-60deg);
+  }
+  50% {
+    top: 14rem;
+    left: 1rem;
+    transform: rotate(-90deg);
+  }
+  58% {
+    top: 22rem;  
+    left: 4rem;
+    transform: rotate(-120deg);
+  }
+    66% {
+    top: 27.2rem;
+    left: 13rem;
+    transform: rotate(-182deg);
+  }
+    83%{
+    top: 27.5rem;
+    left: 38rem;
+    transform: rotate(-182deg);
+  } 
+    92% {
+    top: 22rem;   
+    left: 44rem;
+    transform: rotate(-240deg);
+  }
+    100% {
+    top: 14rem;
+    eft: 47rem;
+    transform: rotate(-300deg);
+  }
+} 
+  
